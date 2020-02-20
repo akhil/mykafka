@@ -24,3 +24,9 @@ libraryDependencies += "io.confluent.ksql" % "ksql-engine" % "5.4.0" withSources
 */
 // https://mvnrepository.com/artifact/io.confluent.ksql/ksql-rest-app
 libraryDependencies += "io.confluent.ksql" % "ksql-rest-app" % "5.4.0" withSources() withJavadoc()
+
+// https://mvnrepository.com/artifact/com.blueapron/kafka-connect-protobuf-converter
+libraryDependencies += "com.blueapron" % "kafka-connect-protobuf-converter" % "3.0.0" withSources() withJavadoc()
+
+// https://mvnrepository.com/artifact/com.github.daniel-shuy/kafka-protobuf-serde
+libraryDependencies += "com.github.daniel-shuy" % "kafka-protobuf-serde" % "2.2.0" withSources() withJavadoc()
