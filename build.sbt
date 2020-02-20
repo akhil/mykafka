@@ -17,9 +17,10 @@ libraryDependencies += "com.salesforce.kafka.test" % "kafka-junit-core" % "3.2.1
 // https://mvnrepository.com/artifact/io.confluent/kafka-schema-registry
 libraryDependencies += "io.confluent" % "kafka-schema-registry" % "5.4.0" withSources() withJavadoc()
 /*
+
 // https://mvnrepository.com/artifact/io.confluent.ksql/ksql-engine
 libraryDependencies += "io.confluent.ksql" % "ksql-engine" % "5.4.0" withSources() withJavadoc()
 
+*/
 // https://mvnrepository.com/artifact/io.confluent.ksql/ksql-rest-app
 libraryDependencies += "io.confluent.ksql" % "ksql-rest-app" % "5.4.0" withSources() withJavadoc()
-*/
